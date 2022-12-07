@@ -3,6 +3,7 @@
 .idea
 __pycache__/
 artifacts/model_weight/
+artifacts/logs/
 __pycache__/
 *.py[cod]
 *$py.class

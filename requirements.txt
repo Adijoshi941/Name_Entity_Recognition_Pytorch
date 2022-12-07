@@ -6,4 +6,5 @@ fastapi==0.78.0
 accelerate==0.5.1
 datasets==1.13.0
 Pyaml
+datasets
 -e .
