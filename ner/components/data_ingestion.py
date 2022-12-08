@@ -22,6 +22,8 @@ class DataIngestion:
             
             Returns: Dict of train test validation data 
             """
+
+            # Create method to check if data exists in data_store before downloading. 
             logger.info(f"Loading Data from Hugging face ")
             pan_en_data = load_dataset(self.data_ingestion_config.dataset_name,
                                        name=self.data_ingestion_config.subset_name)
